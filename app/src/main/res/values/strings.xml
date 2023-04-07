@@ -1,5 +1,26 @@
 <resources>
     //title
+    <string name="map">Theo Dõi Đơn Hàng</string>
+    <string name="order">Đơn Hàng</string>
+    <string name="store">Danh sách cửa hàng</string>
+    <string name="guide">Hướng dẫn</string>
+    <string name="policy"><![CDATA[Chính sách & Điều kiện]]></string>
+    <string name="fanpage">Fanpage</string>
+    <string name="answer">Câu hỏi hoặc đóng góp</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="account">Tài khoản</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="user_email_recover">Email khôi phục</string>
+    <string name="forget_password">Quên mật khẩu</string>
+    <string name="user_login">Đăng nhập</string>
+    <string name="repassword">Nhập lại mật khẩu</string>
+    <string name="hello_exlore_your_dream_food">Hello Exlore Your Dream Food</string>
+    <string name="full_name">Full Name</string>
+    <string name="register">Đăng ký</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_in">Sign In</string>
+    <string name="my_restaurant_app">My Restaurant App</string>
     <string name="app_name">AppFood</string>
     <string name="home">Trang chủ</string>
     <string name="menu">Danh mục</string>
@@ -9,9 +30,9 @@
     <string name="checkout">Thanh toán</string>
     <string name="notify">Thông báo</string>
     <string name="introduce_info_top">Thông tin về nhà hàng</string>
-    <string name="res_name">Nhà hàng Food Food</string>
-    <string name="res_address">180 Hai Bà Trưng, Phường Đa Kao, Quận 1, TP.HCM</string>
-    <string name="res_phone">0337 662 557</string>
+    <string name="res_name">Nhà hàng Good Food</string>
+    <string name="res_address">475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM</string>
+    <string name="res_phone">0989 284 746</string>
     <string name="res_note">Góp ý, đóng góp và đánh giá</string>
     <string name="res_note_valid">Bạn chưa nhập lời nhắn!</string>
 
@@ -62,10 +83,22 @@
     <string name="order_success">Đơn hàng của bạn đã được gửi đi!</string>
 
     //link hình ảnh
-    <string name="slide_1">https://old.tiendauroi.com/uploads/default/original/2X/b/bc7d2c293b170e9810a6cbf9bcaf5ed316ccface.jpeg</string>
-    <string name="slide_2">https://vnn-imgs-f.vgcloud.vn/2021/03/26/14/loat-deal-khung-trong-dai-tiec-thuong-hieu-nowfood-4-4-1.jpg</string>
-    <string name="slide_3">https://image.phunuonline.com.vn/fckeditor/upload/2021/20210326/images/co-hoi-san-deal-4k-trong-nowfood-_631616742485.jpg</string>
-    <string name="slide_4">https://image.phunuonline.com.vn/fckeditor/upload/2021/20210326/images/co-hoi-san-deal-4k-trong-nowfood-_31616732759.jpg</string>
+    <string name="slide_1">https://img.tastykitchen.vn/resize/764x-/2022/06/06/post-6-6-bf69.png</string>
+    <string name="slide_2">https://stc.shopiness.vn/deal/2019/08/13/1/4/8/b/1565669977117_540.png</string>
+    <string name="slide_3">https://stc.shopiness.vn/deal/2019/03/04/4/e/0/e/1551680990574_540.png</string>
+    <string name="slide_4">http://mocquan.vn/wp-content/uploads/2020/11/screen-shot-2020-11-19-at-11.11.21-am.png</string>
+    <string name="slide_5">https://daygiare.com/public/storage/thumb/2020/02/18/PIzza-Hut-Uu-dai-combo-an-trua-cac-ngay-trong-tuan.jpeg</string>
     <string name="title_activity_gioi_thieu_chung">GioiThieuChungActivity</string>
+    <string name="nhap_lai_mat_khau">Vui lòng nhập lại mật khẩu!</string>
+    <string name="mat_khau_moi">Vui lòng nhập mật khẩu mới!</string>
+    <string name="none_pass">Vui lòng nhập mật khẩu!</string>
+    <string name="show_password">Show password</string>
+    <string name="Address">Địa chỉ</string>
+    <string name="input_address">Nhập địa chỉ...</string>
+    <string name="nhap_address">Vui lòng nhập địa chỉ!</string>
+    <string name="search_food">Tìm kiếm món</string>
+    <string name="add_comment">Thêm bình luận...</string>
+    <string name="list_store">Danh sách cửa hàng</string>
+    <string name="title_activity_theo_doi_don_hang">TheoDoiDonHang</string>
 
 </resources>

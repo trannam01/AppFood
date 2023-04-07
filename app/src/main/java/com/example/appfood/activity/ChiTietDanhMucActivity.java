@@ -1,20 +1,17 @@
 package com.example.appfood.activity;
 
-import androidx.annotation.NonNull;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Handler;
-import android.view.View;
-import android.widget.TextView;
-
 import com.example.appfood.R;
 import com.example.appfood.adapter.ChiTietDanhMucAdapter;
-import com.example.appfood.adapter.MonNgauNhienAdapter;
 import com.example.lib.InterfaceResponsitory.AppFoodMethods;
 import com.example.lib.RetrofitClient;
 import com.example.lib.common.NetworkConnection;
@@ -42,12 +39,12 @@ public class ChiTietDanhMucActivity extends AppCompatActivity {
 
     TextView thongbao_soluong;
 
-//    LinearLayoutManager linearLayoutManager;
-//    Handler handler = new Handler();
-//    boolean isLoading = false;
+/*    LinearLayoutManager linearLayoutManager;
+    Handler handler = new Handler();
+    boolean isLoading = false;
 
-//    int page = 1;
-//    int select = 5;
+    int page = 1;
+    int select = 5;*/
     int madanhmuc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,46 +66,46 @@ public class ChiTietDanhMucActivity extends AppCompatActivity {
         }
     }
 
-//    private void actionLoading() {
-//        recycleViewChiTietDanhMuc.addOnScrollListener(new RecyclerView.OnScrollListener() {
-//            @Override
-//            public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
-//                super.onScrollStateChanged(recyclerView, newState);
-//            }
-//
-//            @Override
-//            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
-//                super.onScrolled(recyclerView, dx, dy);
-//                if(!isLoading) {
-//                    if(linearLayoutManager.findLastCompletelyVisibleItemPosition() == listMonTheoDanhMuc.size() -1) {
-//                        isLoading = true;
-//                        loadMore();
-//                    }
-//                }
-//            }
-//        });
-//    }
+/*    private void actionLoading() {
+        recycleViewChiTietDanhMuc.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
 
-//    private void loadMore() {
-//        handler.post(new Runnable() {
-//            @Override
-//            public void run() {
-//                listMonTheoDanhMuc.add(null);
-//                chiTietDanhMucAdapter.notifyItemInserted(listMonTheoDanhMuc.size() - 1);
-//            }
-//        });
-//        handler.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                listMonTheoDanhMuc.remove(listMonTheoDanhMuc.size() - 1);
-//                chiTietDanhMucAdapter.notifyItemRemoved(listMonTheoDanhMuc.size());
-//                page += 1;
-//                getChiTietDanhMuc(page);
-//                chiTietDanhMucAdapter.notifyDataSetChanged();
-//                isLoading = false;
-//            }
-//        },1500);
-//    }
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                if(!isLoading) {
+                    if(linearLayoutManager.findLastCompletelyVisibleItemPosition() == listMonTheoDanhMuc.size() -1) {
+                        isLoading = true;
+                        loadMore();
+                    }
+                }
+            }
+        });
+    }
+
+    private void loadMore() {
+        handler.post(new Runnable() {
+            @Override
+            public void run() {
+                listMonTheoDanhMuc.add(null);
+                chiTietDanhMucAdapter.notifyItemInserted(listMonTheoDanhMuc.size() - 1);
+            }
+        });
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                listMonTheoDanhMuc.remove(listMonTheoDanhMuc.size() - 1);
+                chiTietDanhMucAdapter.notifyItemRemoved(listMonTheoDanhMuc.size());
+                page += 1;
+                getChiTietDanhMuc(page);
+                chiTietDanhMucAdapter.notifyDataSetChanged();
+                isLoading = false;
+            }
+        },1500);
+    }*/
 
     private void khoitao() {
         listMonTheoDanhMuc = new ArrayList<>();

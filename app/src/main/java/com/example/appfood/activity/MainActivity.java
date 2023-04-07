@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     List<Mon.Result> listMonNgauNhienResult;
     MonNgauNhienAdapter monNgauNhienAdapter;
+    List<String> slider = new ArrayList<>();
 
     boolean isLoading = false;
 
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
         //check network
         if(NetworkConnection.isConnected(this)) {
-            Slider();
+            getSlider();
             GetMonNgauNhien();
             Show.thayDoiSoLuongGioHangNho(thongbao_soluong);
             ChuyenTrang();
@@ -85,8 +86,12 @@ public class MainActivity extends AppCompatActivity {
         listView_NavHome.setAdapter(navAdapter);
 
         navAdapter.add(new NavForm(R.drawable.ic_menu_res,getString(R.string.menu)));
+        navAdapter.add(new NavForm(R.drawable.ic_baseline_store_24,getString(R.string.store)));
         navAdapter.add(new NavForm(R.drawable.ic_info,getString(R.string.introduce)));
         navAdapter.add(new NavForm(R.drawable.ic_contact,getString(R.string.contact)));
+        navAdapter.add(new NavForm(R.drawable.ic_baseline_order,getString(R.string.order)));
+        navAdapter.add(new NavForm(R.drawable.ic_baseline_map_24,getString(R.string.map)));
+        navAdapter.add(new NavForm(R.drawable.ic_account,getString(R.string.account)));
     }
 
     private void ChuyenTrang() {
@@ -100,12 +105,28 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(danhmuc);
                         break;
                     case 1:
+                        Intent cuahang = new Intent(getApplicationContext(),DanhSachCuaHang.class);
+                        startActivity(cuahang);
+                        break;
+                    case 2:
                         Intent gioithieuchung = new Intent(getApplicationContext(), GioiThieuChungActivity.class);
                         startActivity(gioithieuchung);
                         break;
-                    case 2:
+                    case 3:
                         Intent lienhe = new Intent(getApplicationContext(),LienHeActivity.class);
                         startActivity(lienhe);
+                        break;
+                    case 4:
+                        Intent donhang = new Intent(getApplicationContext(),LichSuDonHang.class);
+                        startActivity(donhang);
+                        break;
+                    case 5:
+                        Intent map = new Intent(getApplicationContext(),TheoDoiDonHang.class);
+                        startActivity(map);
+                        break;
+                    case 6:
+                        Intent taikhoan = new Intent(getApplicationContext(),TaiKhoanActivity.class);
+                        startActivity(taikhoan);
                         break;
                 }
             }
@@ -130,12 +151,13 @@ public class MainActivity extends AppCompatActivity {
         ));
     }
 
-    private void Slider() {
+    private void getSlider() {
         List<String> slider = new ArrayList<>();
         slider.add(getString(R.string.slide_1));
         slider.add(getString(R.string.slide_2));
         slider.add(getString(R.string.slide_3));
         slider.add(getString(R.string.slide_4));
+        slider.add(getString(R.string.slide_5));
         for (int i = 0; i< slider.size();i++) {
             ImageView imageView = new ImageView(getApplicationContext());
             Glide.with(getApplicationContext()).load(slider.get(i)).into(imageView);
@@ -151,7 +173,46 @@ public class MainActivity extends AppCompatActivity {
 
         viewFlipper.setInAnimation(animation_slide_step_1);
         viewFlipper.setOutAnimation(animation_slide_step_2);
+
+        /*RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, Url.getSlider, null,
+                response -> {
+                    for(int i=0; i<=response.length(); i++){
+                        try {
+                            JSONObject jsonObject = response.getJSONObject(i);
+                            String link = jsonObject.getString("link");
+                            String newLink = Url.linkSlider + link;
+                            Log.d("onResponse", newLink);
+                            slider.add(newLink);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    Slider(slider);
+                },
+                error -> {
+                }
+        );
+        requestQueue.add(jsonArrayRequest);*/
     }
+
+    /*private void Slider(List<String> slider) {
+        for (int i = 0; i< slider.size();i++) {
+            ImageView imageView = new ImageView(getApplicationContext());
+            Glide.with(getApplicationContext()).load(slider.get(i)).into(imageView);
+
+            //fix imageView vào ViewFlipper
+            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+            viewFlipper.addView(imageView);
+        }
+        viewFlipper.setFlipInterval(3000);
+        viewFlipper.setAutoStart(true);
+        Animation animation_slide_step_1 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slider_step_1);
+        Animation animation_slide_step_2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slider_step_2);
+
+        viewFlipper.setInAnimation(animation_slide_step_1);
+        viewFlipper.setOutAnimation(animation_slide_step_2);
+    }*/
 
     private void actionToolbar() {
         setSupportActionBar(toolbar_Home);
@@ -199,6 +260,11 @@ public class MainActivity extends AppCompatActivity {
     public void ToHome(View view) {
         Intent trangchu = new Intent(getApplicationContext(),MainActivity.class);
         startActivity(trangchu);
+    }
+
+    public void searchMon(View view) {
+        Intent timkiem = new Intent(getApplicationContext(),TimKiemActivity.class);
+        startActivity(timkiem);
     }
 
     @Override

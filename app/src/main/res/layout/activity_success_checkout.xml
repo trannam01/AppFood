@@ -124,18 +124,18 @@
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/user_email"
+                        android:text="@string/Address"
                         android:textColor="@color/second"
                         android:textStyle="bold" />
                     <TextView
-                        android:id="@+id/txt_email"
+                        android:id="@+id/txt_address"
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:textSize="@dimen/text_size"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_1_2"
                         android:layout_marginBottom="@dimen/margin_1"
-                        android:text="email"
+                        android:text="Địa chỉ"
                         android:textColor="@color/black"/>
                     <TextView
                         android:layout_gravity="center"

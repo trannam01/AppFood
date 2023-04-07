@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/.IT/DO AN/#3 Do An Android/Do An Android/app/src/main/res/layout/activity_thong_tin_khach_hang.xml" value="0.264" />
         <entry key="..\:/.IT/DO AN/Do An Android/Do An Android/app/src/main/res/layout/activity_danh_muc.xml" value="0.18342391304347827" />
         <entry key="..\:/.IT/DO AN/Do An Android/Do An Android/app/src/main/res/layout/activity_gioi_thieu_chung.xml" value="0.18342391304347827" />
         <entry key="..\:/.IT/DO AN/Do An Android/Do An Android/app/src/main/res/layout/activity_lien_he.xml" value="0.264" />
@@ -59,6 +60,68 @@
         <entry key="..\:/.IT/DO AN/Do An Android/app/src/main/res/layout/spinner_item.xml" value="0.264" />
         <entry key="..\:/.IT/DO AN/Do An Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.27685185185185185" />
         <entry key="..\:/.IT/DO AN/Do An Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.27685185185185185" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/drawable-v24/ic_account.xml" value="0.2555" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2555" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.2555" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/drawable/ic_baseline_order.xml" value="0.2555" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_chi_tiet_danh_muc.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_chi_tiet_don_hang.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_dang_nhap.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_danh_muc.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_donhang.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_lich_su_don_hang.xml" value="0.23333333333333334" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_listview.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_tai_khoan.xml" value="0.22010869565217392" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/activity_theo_doi_don_hang.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/item_chi_tiet_danh_muc.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/item_chi_tiet_don_hang.xml" value="0.24895833333333334" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/item_grid_danh_muc.xml" value="0.25" />
+        <entry key="..\:/LTDD/Do An Android/app/src/main/res/layout/item_grid_don_hang.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable-v24/custom_button_gray.xml" value="0.2035" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable-v24/ic_account.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable-v24/ic_hintpass.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/btn_bg_design.xml" value="0.174" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/custom_background_primary.xml" value="0.2245" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/custom_button_second.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/custom_button_transparent.xml" value="0.1875" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.174" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.174" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/ic_baseline_store_24.xml" value="0.207" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.174" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/ic_hintpass.xml" value="0.174" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/ic_showpass.xml" value="0.174" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/imgbutton_bg.xml" value="0.1875" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/drawable/splashbackground.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_chi_tiet_danh_muc.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_chi_tiet_mon.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_dang_ky.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_dang_nhap.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_danh_muc.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_danh_sach_cua_hang.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_gio_hang.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_gioi_thieu_chung.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_lien_he.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_listview.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_login.xml" value="0.128" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_notification.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_quen_mat_khau.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_registration.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_success_checkout.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_tai_khoan.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_thong_tin_khach_hang.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_tim_kiem.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_chi_tiet_danh_muc.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_giohang.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_grid_danh_muc.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_grid_mon_ngau_nhien.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_list_binhluan.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_list_nav.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/item_loading.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Downloads/AppFoodFolder - Sharecode/AppFoodFolder - Sharecode/Do An Android/Do An Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2265" />
       </map>
     </option>
   </component>

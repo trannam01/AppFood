@@ -15,6 +15,17 @@ public class Validate {
             return true;
     }
 
+    public static boolean isValidAddress(String value, TextView textView) {
+        if(value.trim().length() <= 0) {
+            textView.setVisibility(View.VISIBLE);
+            textView.setText("Vui lòng nhập địa chỉ nhận hàng!");
+            return false;
+        }
+        textView.setVisibility(View.GONE);
+        textView.setText(" ");
+        return true;
+    }
+
     static boolean isEmailValid(CharSequence email) {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches();
     }
@@ -47,5 +58,16 @@ public class Validate {
             textView.setVisibility(View.GONE);
             textView.setText(" ");
             return true;
+    }
+
+    public static boolean isValidValue(String value, TextView textView) {
+        if(value.trim().length() <= 0) {
+            textView.setVisibility(View.VISIBLE);
+            textView.setText("Vui lòng nhập đầy đủ thông tin!");
+            return false;
+        }
+        textView.setVisibility(View.GONE);
+        textView.setText(" ");
+        return true;
     }
 }

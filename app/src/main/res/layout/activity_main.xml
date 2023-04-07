@@ -65,6 +65,33 @@
                         </androidx.cardview.widget.CardView>
                     </FrameLayout>
                 </FrameLayout>
+                <FrameLayout
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/wrap_cart_width"
+                    android:layout_height="?attr/actionBarSize">
+                    <FrameLayout
+                        android:onClick="searchMon"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/miniSearch"
+                            android:src="@drawable/ic_search"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <androidx.cardview.widget.CardView
+                            android:elevation="@dimen/margin_1"
+                            android:layout_gravity="top|left"
+                            app:cardCornerRadius="100dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginBottom="22dp"
+                            android:background="@color/cost_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </androidx.cardview.widget.CardView>
+                    </FrameLayout>
+                </FrameLayout>
             </androidx.appcompat.widget.Toolbar>
             <FrameLayout
                 android:layout_marginTop="@dimen/margin_1_2"

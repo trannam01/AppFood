@@ -52,26 +52,26 @@ public class GioHangActivity extends AppCompatActivity {
         }
     }
 
-//    private void xoaGioHang() {
-//        pos_delete = getIntent().getIntExtra("id_delete",0);
-//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//        builder.setTitle("Xác nhận xóa món");
-//        builder.setMessage("Bạn có chắc chắn muốn xóa món này?");
-//        builder.setPositiveButton("Đồng ý", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialogInterface, int i) {
-//                Show.listGiohang.remove(pos_delete);
-//                gioHangAdapter.notifyDataSetChanged();
-//            }
-//        });
-//        builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialogInterface, int i) {
-//
-//            }
-//        });
-//        builder.show();
-//    }
+/*    private void xoaGioHang() {
+        pos_delete = getIntent().getIntExtra("id_delete",0);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Xác nhận xóa món");
+        builder.setMessage("Bạn có chắc chắn muốn xóa món này?");
+        builder.setPositiveButton("Đồng ý", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Show.listGiohang.remove(pos_delete);
+                gioHangAdapter.notifyDataSetChanged();
+            }
+        });
+        builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+        builder.show();
+    }*/
 
 
     private void tinhTongTienGioHang() {
