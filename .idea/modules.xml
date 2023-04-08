@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/App_Food.iml" filepath="$PROJECT_DIR$/.idea/modules/App_Food.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.iml" filepath="$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Lib/App_Food.Lib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_Food.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_Food.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_Food.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_Food.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_Food.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_Food.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_Food.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_Food.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
