@@ -1,4 +1,4 @@
-#
+# naamama
 # There is insufficient memory for the Java Runtime Environment to continue.
 # Native memory allocation (mmap) failed to map 93323264 bytes for Failed to commit area from 0x00000000e6100000 to 0x00000000eba00000 of length 93323264.
 # Possible reasons:
